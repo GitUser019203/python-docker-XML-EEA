@@ -1,0 +1,8 @@
+version: "1.0"
+services:
+  nc:
+    container_name: xml-entity-expansion-attack-ctf
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: bash start_nc.sh
