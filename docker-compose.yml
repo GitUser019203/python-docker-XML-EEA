@@ -1,7 +1,7 @@
 version: "1.0"
 services:
   nc:
-    container_name: xml-entity-expansion-attack-ctf
+    container_name: xml-parsing-ctf
     build:
       context: .
       dockerfile: ./Dockerfile
