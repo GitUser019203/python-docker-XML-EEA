@@ -341,3 +341,4 @@ healthchecksdb
 /run.sh
 /example_payload.xml
 /a.sh
+/payload_generator.py
