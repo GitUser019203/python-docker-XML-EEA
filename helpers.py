@@ -10,7 +10,7 @@ def print_VM_usage():
         VM_usage_mb = currProcess.memory_info().vms / (1024.0 * 1024.0) 
         print(f"Usage in MB: {VM_usage_mb}")	
         if VM_usage_mb > 1024:
-            print("CTF_Flag{Exponential_Entity_Expansion_Attack_in_XML!}")
+            print("CTF_Flag{Entity_Expansion_Attack_in_XML!}")
         
 def parse_XML(xml_string):
     global done
