@@ -2,7 +2,7 @@ from sys import getsizeof
 from threading import Thread
 from helpers import print_VM_usage, parse_XML
 
-xml_string = input("Enter an XML string at most 10 KB large: \n")
+xml_string = input("Enter an XML string in one line that is at most 10 KB large: \n")
 xml_size = getsizeof(xml_string)
 
 if xml_size > 10240:
