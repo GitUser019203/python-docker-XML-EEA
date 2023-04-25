@@ -12,6 +12,8 @@ WORKDIR /xml
 
 COPY . .
 
+EXPOSE 54321
+
 RUN chmod 777 *.sh
 
 ENTRYPOINT ["./start_nc.sh"]
