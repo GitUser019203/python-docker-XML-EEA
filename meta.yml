@@ -1,0 +1,20 @@
+name: XML Entity Expansion Attacks!
+description: 
+    This challenge will familiarize you with exploiting vulnerabilities in XML processing.
+
+    **Connection Instructions**:
+  
+    Use netcat to connect to localhost at port 54321.
+ Do the following:
+
+    Challenge 1. Exploit a vulnerability in Python’s minimal implementation of the DOM API used to process XML documents using malicious entity expansion. 
+
+value: 100
+category: XML Entity Expansion Attack 
+flags: CTF_SDaT{Entity_Expansion_Attack_in_XML!}
+
+# administrative
+container_name: xml-entity-expansion-attack-ctf
+
+
+
